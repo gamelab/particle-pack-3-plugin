@@ -1,0 +1,128 @@
+
+<html>
+
+<head>
+
+ 	<script src="../bower_components/kiwi.js/build/kiwi.js"></script>
+ 	<script src="../lib/particlesgl-0.9.0.js"></script>
+  	<script src="../src/particlepack3.js"></script>
+  	
+  	<script src="../src/acid/acidbullet.js"></script>
+  	<!-- ONE OF THESE FOR EACH EFFECT GROUP -->
+
+  
+</head>
+<body>
+	<div id="exampleGameContainer">
+
+	</div>
+	<div>
+	<select id="selectEffect">
+	  <option value="acidbullet">Acidbullet</option>
+	  <!-- ONE OF THESE FOR EACH EFFECT GROUP -->
+	 </select>
+	</div>
+
+	<select id="looping">
+	  <option value="once">Once</option>
+	  <option value="continuous">Continuous Loop</option>
+	  <option value="loopAndPause">Loop and Pause</option>
+
+	</select>
+
+	<input id="go" type="button" value="go"/>
+
+	<script type="text/javascript">
+
+		function getParameterByName(name) {
+		    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+		    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+		        results = regex.exec(location.search);
+		    return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+		}
+
+		var selectEffect = document.getElementById("selectEffect");
+		selectEffect.value = getParameterByName("name") || "acidbullet";
+		var looping = document.getElementById("looping");
+		looping.value = getParameterByName("looping") || "loopAndPause";
+		var go = document.getElementById("go");
+
+		go.onclick = function (e) {
+			console.log (selectEffect.value)
+			console.log (looping.value)
+			window.location = window.location.origin + window.location.pathname + "?name=" + selectEffect.value + "&looping=" + looping.value;
+
+		}
+
+		var MyState = new Kiwi.State("myState");
+		
+		var MyGame = new Kiwi.Game("exampleGameContainer","testGame",MyState,{renderer:Kiwi.RENDERER_WEBGL,plugins:["ParticlePack3","ParticlesGL"]});
+
+		MyState.preload = function() {
+			this.game.stage.color="000000";
+    		this.addSpriteSheet('particlePack3SpriteSheet', '../assets/particlepack3_128.png',128, 128, false, 8, 5, 5, 27, 27, 54, 54);
+    		this.addSpriteSheet('particlePack3SpriteSheet_16', '../assets/particlepack3_16.png', 16, 16, false, 8, 5, 5, 4, 4, 8, 8);
+    		
+		};
+
+		MyState.create = function() {
+			//single particle effects - these return a gameobject
+			this.acidbullet = Kiwi.Plugins.ParticlePack3.Acidbullet(this,400,300);
+    		// ******** ONE OF THESE FOR EACH EFFECT GROUP ***************
+
+    		
+    		var effectName = getParameterByName('name') || 'acidbullet';
+    		var effect = this[effectName];
+    		var looping = getParameterByName('looping') || 'loopAndPause';
+    		    		
+    		this.addChild(effect);
+
+
+
+    		function start() {
+
+	    		if (effect.childType() === Kiwi.GROUP) {
+	    			for (var i = 0;i < effect.members.length;i++ ) {
+	    				console.log(i);
+	    				switch (looping) {
+	    					case "once" : 
+	    						effect.members[i].startEmitting(false);
+	    						break;
+	    					case "continuous" :
+	    						effect.members[i].startEmitting();
+	    						break;
+	    					case "loopAndPause" :
+	    						effect.members[i].startEmitting(false,false);
+	    						break;
+		   				}
+	    			}				
+
+	    		} else {
+	    			switch (looping) {
+		    			case "once" : 
+							effect.startEmitting(false);
+							break;
+						case "continuous" :
+							effect.startEmitting();
+							break;
+						case "loopAndPause" :
+							effect.startEmitting(false,false);
+							break;
+	    			}
+	    		}
+
+    		}
+
+    		start();
+    		if (looping === "loopAndPause") {
+    			
+    			setInterval(start,400);
+
+    		}	
+		}	
+
+	</script>
+
+</body>
+
+</html>
