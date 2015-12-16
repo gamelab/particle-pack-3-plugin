@@ -13,21 +13,7 @@ Kiwi.Plugins.ParticlePack3.Rocket2Impact = {
 		* @return Kiwi.Group
 		*/
 
-		var effect, i,
-			group = new Kiwi.Group( state );
-
-		for ( i in this.config ) {
-			effect = new Kiwi.GameObjects.StatelessParticles(
-				state, state.textures.particlePack3SpriteSheet,
-				0, 0,
-				this.config[ i ] );
-			group.addChild( effect );
-		}
-
-		group.x = x;
-		group.y = y;
-
-		return group;
+		return Kiwi.Plugins.ParticlePack3._create( state, x, y, this.config );
 	},
 
 	/**

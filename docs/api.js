@@ -15,7 +15,7 @@ YUI.add("yuidoc-meta", function(Y) {
         {
             "displayName": "Kiwi.Plugins",
             "name": "Kiwi.Plugins",
-            "description": "For a walkthrough on setting up the particle pack plugin check the README"
+            "description": "ParticlePack3 contains factory methods to create particles for your KiwiJS\ngame. Use the `create` methods to generate particles or groups of particles.\n\nFor a walkthrough on setting up the particle pack plugin check the README."
         }
     ]
 } };

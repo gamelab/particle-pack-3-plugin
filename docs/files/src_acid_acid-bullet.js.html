@@ -90,12 +90,6 @@
 
 <div class="file">
     <pre class="code prettyprint linenums">
-/**
-* AcidBullet effects
-* @property AcidBullet
-* @type Object
-*/
-
 Kiwi.Plugins.ParticlePack3.AcidBullet = {
 
 	create: function( state, x, y ) {
@@ -111,21 +105,7 @@ Kiwi.Plugins.ParticlePack3.AcidBullet = {
 		* @return Kiwi.Group
 		*/
 
-		var effect, i,
-			group = new Kiwi.Group( state );
-
-		for ( i in Kiwi.Plugins.ParticlePack3.AcidBulletConfig ) {
-			effect = new Kiwi.GameObjects.StatelessParticles(
-				state, state.textures.particlePack3SpriteSheet,
-				0, 0,
-				Kiwi.Plugins.ParticlePack3.AcidBulletConfig[ i ] );
-			group.addChild( effect );
-		}
-
-		group.x = x;
-		group.y = y;
-
-		return group;
+		return Kiwi.Plugins.ParticlePack3._create( state, x, y, this.config );
 	},
 
 	/**

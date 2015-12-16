@@ -13,8 +13,246 @@
             "fors": {},
             "namespaces": {}
         },
+        "src/acid/acid-flash.js": {
+            "name": "src/acid/acid-flash.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
         "src/acid/acid-impact.js": {
             "name": "src/acid/acid-impact.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/asteroid/asteroid-bullet.js": {
+            "name": "src/asteroid/asteroid-bullet.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/asteroid/asteroid-impact.js": {
+            "name": "src/asteroid/asteroid-impact.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/blue-plasma-ball/blue-plasma-ball-bullet.js": {
+            "name": "src/blue-plasma-ball/blue-plasma-ball-bullet.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/blue-plasma-ball/blue-plasma-ball-impact.js": {
+            "name": "src/blue-plasma-ball/blue-plasma-ball-impact.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/lightning-ball/lightning-ball-bullet.js": {
+            "name": "src/lightning-ball/lightning-ball-bullet.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/lightning-ball/lightning-ball-impact.js": {
+            "name": "src/lightning-ball/lightning-ball-impact.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/lightning-gun/lightning-gun-bullet.js": {
+            "name": "src/lightning-gun/lightning-gun-bullet.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/lightning-gun/lightning-gun-flash.js": {
+            "name": "src/lightning-gun/lightning-gun-flash.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/lightning-gun/lightning-gun-impact.js": {
+            "name": "src/lightning-gun/lightning-gun-impact.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/orange-ball/orange-ball-bullet.js": {
+            "name": "src/orange-ball/orange-ball-bullet.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/orange-ball/orange-ball-impact.js": {
+            "name": "src/orange-ball/orange-ball-impact.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/orange-bolt/orange-bolt-bullet.js": {
+            "name": "src/orange-bolt/orange-bolt-bullet.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/orange-bolt/orange-bolt-impact.js": {
+            "name": "src/orange-bolt/orange-bolt-impact.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/orange-streaks/orange-streaks-bullet.js": {
+            "name": "src/orange-streaks/orange-streaks-bullet.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/orange-streaks/orange-streaks-impact.js": {
+            "name": "src/orange-streaks/orange-streaks-impact.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/pink-plasma-shot/pink-plasma-shot-bullet.js": {
+            "name": "src/pink-plasma-shot/pink-plasma-shot-bullet.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/pink-plasma-shot/pink-plasma-shot-flash.js": {
+            "name": "src/pink-plasma-shot/pink-plasma-shot-flash.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/pink-plasma-shot/pink-plasma-shot-impact.js": {
+            "name": "src/pink-plasma-shot/pink-plasma-shot-impact.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/radar-scanner/radar-scanner-flash.js": {
+            "name": "src/radar-scanner/radar-scanner-flash.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/red-laser/red-laser-bullet.js": {
+            "name": "src/red-laser/red-laser-bullet.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/red-laser/red-laser-flash.js": {
+            "name": "src/red-laser/red-laser-flash.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/red-laser/red-laser-impact.js": {
+            "name": "src/red-laser/red-laser-impact.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/rocket1/rocket1-bullet.js": {
+            "name": "src/rocket1/rocket1-bullet.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/rocket1/rocket1-flash.js": {
+            "name": "src/rocket1/rocket1-flash.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/rocket1/rocket1-impact.js": {
+            "name": "src/rocket1/rocket1-impact.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/rocket2/rocket2-bullet.js": {
+            "name": "src/rocket2/rocket2-bullet.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/rocket2/rocket2-impact.js": {
+            "name": "src/rocket2/rocket2-impact.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/sonar-pulse/sonar-pulse-bullet.js": {
+            "name": "src/sonar-pulse/sonar-pulse-bullet.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/sonar-pulse/sonar-pulse-impact.js": {
+            "name": "src/sonar-pulse/sonar-pulse-impact.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/star-fire/star-fire-bullet.js": {
+            "name": "src/star-fire/star-fire-bullet.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/star-fire/star-fire-flash.js": {
+            "name": "src/star-fire/star-fire-flash.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/star-fire/star-fire-impact.js": {
+            "name": "src/star-fire/star-fire-impact.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/tractor-beam/tractor-beam-flash.js": {
+            "name": "src/tractor-beam/tractor-beam-flash.js",
             "modules": {},
             "classes": {},
             "fors": {},
@@ -65,7 +303,7 @@
             "namespace": "",
             "file": "src/_particlepack3.js",
             "line": 1,
-            "description": "For a walkthrough on setting up the particle pack plugin check the README",
+            "description": "ParticlePack3 contains factory methods to create particles for your KiwiJS\ngame. Use the `create` methods to generate particles or groups of particles.\n\nFor a walkthrough on setting up the particle pack plugin check the README.",
             "tag": "main",
             "itemtype": "main"
         }
@@ -84,22 +322,13 @@
             "namespace": "Kiwi.Plugins",
             "file": "src/_particlepack3.js",
             "line": 1,
-            "description": "For a walkthrough on setting up the particle pack plugin check the README"
+            "description": "ParticlePack3 contains factory methods to create particles for your KiwiJS\ngame. Use the `create` methods to generate particles or groups of particles.\n\nFor a walkthrough on setting up the particle pack plugin check the README."
         }
     },
     "classitems": [
         {
             "file": "src/acid/acid-bullet.js",
-            "line": 1,
-            "description": "AcidBullet effects",
-            "itemtype": "property",
-            "name": "AcidBullet",
-            "type": "Object",
-            "class": "Kiwi.Plugins.ParticlePack3"
-        },
-        {
-            "file": "src/acid/acid-bullet.js",
-            "line": 11,
+            "line": 5,
             "description": "Return a ParticlePack3 AcidBullet effect.",
             "itemtype": "method",
             "name": "AcidBullet.create",
@@ -128,7 +357,7 @@
         },
         {
             "file": "src/acid/acid-bullet.js",
-            "line": 39,
+            "line": 19,
             "description": "Config information for AcidBullet",
             "itemtype": "property",
             "name": "AcidBullet.config",
@@ -136,20 +365,1338 @@
             "class": "Kiwi.Plugins.ParticlePack3"
         },
         {
-            "file": "src/acid/acid-impact.js",
-            "line": 1,
-            "description": "ParticlePack3 AcidImpact Effect.",
-            "itemtype": "property",
-            "name": "AcidImpact",
-            "type": "Kiwi.Group",
-            "access": "public",
-            "tagname": "",
+            "file": "src/acid/acid-flash.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 AcidFlash effect.",
+            "itemtype": "method",
+            "name": "AcidFlash.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
             "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/acid/acid-flash.js",
+            "line": 19,
+            "description": "Config information for AcidFlash",
+            "itemtype": "property",
+            "name": "AcidFlash.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/acid/acid-impact.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 AcidImpact effect.",
+            "itemtype": "method",
+            "name": "AcidImpact.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/acid/acid-impact.js",
+            "line": 19,
+            "description": "Config information for AcidImpact",
+            "itemtype": "property",
+            "name": "AcidImpact.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/asteroid/asteroid-bullet.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 AsteroidBullet effect.",
+            "itemtype": "method",
+            "name": "AsteroidBullet.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/asteroid/asteroid-bullet.js",
+            "line": 19,
+            "description": "Config information for AsteroidBullet",
+            "itemtype": "property",
+            "name": "AsteroidBullet.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/asteroid/asteroid-impact.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 AsteroidImpact effect.",
+            "itemtype": "method",
+            "name": "AsteroidImpact.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/asteroid/asteroid-impact.js",
+            "line": 19,
+            "description": "Config information for AsteroidImpact",
+            "itemtype": "property",
+            "name": "AsteroidImpact.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/blue-plasma-ball/blue-plasma-ball-bullet.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 BluePlasmaBallBullet effect.",
+            "itemtype": "method",
+            "name": "BluePlasmaBallBullet.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/blue-plasma-ball/blue-plasma-ball-bullet.js",
+            "line": 19,
+            "description": "Config information for BluePlasmaBallBullet",
+            "itemtype": "property",
+            "name": "BluePlasmaBallBullet.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/blue-plasma-ball/blue-plasma-ball-impact.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 BluePlasmaBallImpact effect.",
+            "itemtype": "method",
+            "name": "BluePlasmaBallImpact.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/blue-plasma-ball/blue-plasma-ball-impact.js",
+            "line": 19,
+            "description": "Config information for BluePlasmaBallImpact",
+            "itemtype": "property",
+            "name": "BluePlasmaBallImpact.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/lightning-ball/lightning-ball-bullet.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 LightningBallBullet effect.",
+            "itemtype": "method",
+            "name": "LightningBallBullet.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/lightning-ball/lightning-ball-bullet.js",
+            "line": 19,
+            "description": "Config information for LightningBallBullet",
+            "itemtype": "property",
+            "name": "LightningBallBullet.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/lightning-ball/lightning-ball-impact.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 LightningBallImpact effect.",
+            "itemtype": "method",
+            "name": "LightningBallImpact.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/lightning-ball/lightning-ball-impact.js",
+            "line": 19,
+            "description": "Config information for LightningBallImpact",
+            "itemtype": "property",
+            "name": "LightningBallImpact.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/lightning-gun/lightning-gun-bullet.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 LightningGunBullet effect.",
+            "itemtype": "method",
+            "name": "LightningGunBullet.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/lightning-gun/lightning-gun-bullet.js",
+            "line": 19,
+            "description": "Config information for LightningGunBullet",
+            "itemtype": "property",
+            "name": "LightningGunBullet.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/lightning-gun/lightning-gun-flash.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 LightningGunFlash effect.",
+            "itemtype": "method",
+            "name": "LightningGunFlash.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/lightning-gun/lightning-gun-flash.js",
+            "line": 19,
+            "description": "Config information for LightningGunFlash",
+            "itemtype": "property",
+            "name": "LightningGunFlash.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/lightning-gun/lightning-gun-impact.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 LightningGunImpact effect.",
+            "itemtype": "method",
+            "name": "LightningGunImpact.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/lightning-gun/lightning-gun-impact.js",
+            "line": 19,
+            "description": "Config information for LightningGunImpact",
+            "itemtype": "property",
+            "name": "LightningGunImpact.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/orange-ball/orange-ball-bullet.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 OrangeBallBullet effect.",
+            "itemtype": "method",
+            "name": "OrangeBallBullet.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/orange-ball/orange-ball-bullet.js",
+            "line": 19,
+            "description": "Config information for OrangeBallBullet",
+            "itemtype": "property",
+            "name": "OrangeBallBullet.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/orange-ball/orange-ball-impact.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 OrangeBallImpact effect.",
+            "itemtype": "method",
+            "name": "OrangeBallImpact.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/orange-ball/orange-ball-impact.js",
+            "line": 19,
+            "description": "Config information for OrangeBallImpact",
+            "itemtype": "property",
+            "name": "OrangeBallImpact.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/orange-bolt/orange-bolt-bullet.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 OrangeBoltBullet effect.",
+            "itemtype": "method",
+            "name": "OrangeBoltBullet.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/orange-bolt/orange-bolt-bullet.js",
+            "line": 19,
+            "description": "Config information for OrangeBoltBullet",
+            "itemtype": "property",
+            "name": "OrangeBoltBullet.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/orange-bolt/orange-bolt-impact.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 OrangeBoltImpact effect.",
+            "itemtype": "method",
+            "name": "OrangeBoltImpact.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/orange-bolt/orange-bolt-impact.js",
+            "line": 19,
+            "description": "Config information for OrangeBoltImpact",
+            "itemtype": "property",
+            "name": "OrangeBoltImpact.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/orange-streaks/orange-streaks-bullet.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 OrangeStreaksBullet effect.",
+            "itemtype": "method",
+            "name": "OrangeStreaksBullet.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/orange-streaks/orange-streaks-bullet.js",
+            "line": 19,
+            "description": "Config information for OrangeStreaksBullet",
+            "itemtype": "property",
+            "name": "OrangeStreaksBullet.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/orange-streaks/orange-streaks-impact.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 OrangeStreaksImpact effect.",
+            "itemtype": "method",
+            "name": "OrangeStreaksImpact.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/orange-streaks/orange-streaks-impact.js",
+            "line": 19,
+            "description": "Config information for OrangeStreaksImpact",
+            "itemtype": "property",
+            "name": "OrangeStreaksImpact.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/pink-plasma-shot/pink-plasma-shot-bullet.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 PinkPlasmaShotBullet effect.",
+            "itemtype": "method",
+            "name": "PinkPlasmaShotBullet.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/pink-plasma-shot/pink-plasma-shot-bullet.js",
+            "line": 19,
+            "description": "Config information for PinkPlasmaShotBullet",
+            "itemtype": "property",
+            "name": "PinkPlasmaShotBullet.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/pink-plasma-shot/pink-plasma-shot-flash.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 PinkPlasmaShotFlash effect.",
+            "itemtype": "method",
+            "name": "PinkPlasmaShotFlash.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/pink-plasma-shot/pink-plasma-shot-flash.js",
+            "line": 19,
+            "description": "Config information for PinkPlasmaShotFlash",
+            "itemtype": "property",
+            "name": "PinkPlasmaShotFlash.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/pink-plasma-shot/pink-plasma-shot-impact.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 PinkPlasmaShotImpact effect.",
+            "itemtype": "method",
+            "name": "PinkPlasmaShotImpact.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/pink-plasma-shot/pink-plasma-shot-impact.js",
+            "line": 19,
+            "description": "Config information for PinkPlasmaShotImpact",
+            "itemtype": "property",
+            "name": "PinkPlasmaShotImpact.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/radar-scanner/radar-scanner-flash.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 RadarScannerFlash effect.",
+            "itemtype": "method",
+            "name": "RadarScannerFlash.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/radar-scanner/radar-scanner-flash.js",
+            "line": 19,
+            "description": "Config information for RadarScannerFlash",
+            "itemtype": "property",
+            "name": "RadarScannerFlash.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/red-laser/red-laser-bullet.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 RedLaserBullet effect.",
+            "itemtype": "method",
+            "name": "RedLaserBullet.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/red-laser/red-laser-bullet.js",
+            "line": 19,
+            "description": "Config information for RedLaserBullet",
+            "itemtype": "property",
+            "name": "RedLaserBullet.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/red-laser/red-laser-flash.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 RedLaserFlash effect.",
+            "itemtype": "method",
+            "name": "RedLaserFlash.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/red-laser/red-laser-flash.js",
+            "line": 19,
+            "description": "Config information for RedLaserFlash",
+            "itemtype": "property",
+            "name": "RedLaserFlash.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/red-laser/red-laser-impact.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 RedLaserImpact effect.",
+            "itemtype": "method",
+            "name": "RedLaserImpact.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/red-laser/red-laser-impact.js",
+            "line": 19,
+            "description": "Config information for RedLaserImpact",
+            "itemtype": "property",
+            "name": "RedLaserImpact.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/rocket1/rocket1-bullet.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 Rocket1Bullet effect.",
+            "itemtype": "method",
+            "name": "Rocket1Bullet.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/rocket1/rocket1-bullet.js",
+            "line": 19,
+            "description": "Config information for Rocket1Bullet",
+            "itemtype": "property",
+            "name": "Rocket1Bullet.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/rocket1/rocket1-flash.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 Rocket1Flash effect.",
+            "itemtype": "method",
+            "name": "Rocket1Flash.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/rocket1/rocket1-flash.js",
+            "line": 19,
+            "description": "Config information for Rocket1Flash",
+            "itemtype": "property",
+            "name": "Rocket1Flash.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/rocket1/rocket1-impact.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 Rocket1Impact effect.",
+            "itemtype": "method",
+            "name": "Rocket1Impact.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/rocket1/rocket1-impact.js",
+            "line": 19,
+            "description": "Config information for Rocket1Impact",
+            "itemtype": "property",
+            "name": "Rocket1Impact.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/rocket2/rocket2-bullet.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 Rocket2Bullet effect.",
+            "itemtype": "method",
+            "name": "Rocket2Bullet.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/rocket2/rocket2-bullet.js",
+            "line": 19,
+            "description": "Config information for Rocket2Bullet",
+            "itemtype": "property",
+            "name": "Rocket2Bullet.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/rocket2/rocket2-impact.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 Rocket2Impact effect.",
+            "itemtype": "method",
+            "name": "Rocket2Impact.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/rocket2/rocket2-impact.js",
+            "line": 19,
+            "description": "Config information for Rocket2Impact",
+            "itemtype": "property",
+            "name": "Rocket2Impact.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/sonar-pulse/sonar-pulse-bullet.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 SonarPulseBullet effect.",
+            "itemtype": "method",
+            "name": "SonarPulseBullet.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/sonar-pulse/sonar-pulse-bullet.js",
+            "line": 19,
+            "description": "Config information for SonarPulseBullet",
+            "itemtype": "property",
+            "name": "SonarPulseBullet.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/sonar-pulse/sonar-pulse-impact.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 SonarPulseImpact effect.",
+            "itemtype": "method",
+            "name": "SonarPulseImpact.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/sonar-pulse/sonar-pulse-impact.js",
+            "line": 19,
+            "description": "Config information for SonarPulseImpact",
+            "itemtype": "property",
+            "name": "SonarPulseImpact.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/star-fire/star-fire-bullet.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 StarFireBullet effect.",
+            "itemtype": "method",
+            "name": "StarFireBullet.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/star-fire/star-fire-bullet.js",
+            "line": 19,
+            "description": "Config information for StarFireBullet",
+            "itemtype": "property",
+            "name": "StarFireBullet.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/star-fire/star-fire-flash.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 StarFireFlash effect.",
+            "itemtype": "method",
+            "name": "StarFireFlash.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/star-fire/star-fire-flash.js",
+            "line": 19,
+            "description": "Config information for StarFireFlash",
+            "itemtype": "property",
+            "name": "StarFireFlash.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/star-fire/star-fire-impact.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 StarFireImpact effect.",
+            "itemtype": "method",
+            "name": "StarFireImpact.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/star-fire/star-fire-impact.js",
+            "line": 19,
+            "description": "Config information for StarFireImpact",
+            "itemtype": "property",
+            "name": "StarFireImpact.config",
+            "type": "array",
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/tractor-beam/tractor-beam-flash.js",
+            "line": 5,
+            "description": "Return a ParticlePack3 TractorBeamFlash effect.",
+            "itemtype": "method",
+            "name": "TractorBeamFlash.create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical coordinate",
+                    "type": "Number"
+                }
+            ],
+            "static": 1,
+            "return": {
+                "description": "Kiwi.Group"
+            },
+            "class": "Kiwi.Plugins.ParticlePack3"
+        },
+        {
+            "file": "src/tractor-beam/tractor-beam-flash.js",
+            "line": 19,
+            "description": "Config information for TractorBeamFlash",
+            "itemtype": "property",
+            "name": "TractorBeamFlash.config",
+            "type": "array",
             "class": "Kiwi.Plugins.ParticlePack3"
         },
         {
             "file": "src/_particlepack3.js",
-            "line": 12,
+            "line": 15,
             "description": "The name of this plugin.",
             "itemtype": "property",
             "name": "name",
@@ -163,7 +1710,7 @@
         },
         {
             "file": "src/_particlepack3.js",
-            "line": 20,
+            "line": 23,
             "description": "The version of this plugin in semver (semantic versioning) format",
             "itemtype": "property",
             "name": "version",
@@ -177,7 +1724,7 @@
         },
         {
             "file": "src/_particlepack3.js",
-            "line": 28,
+            "line": 31,
             "description": "The minimum version of Kiwi.js required to run this plugin in semver\n(semantic versioning) format",
             "itemtype": "property",
             "name": "minimumKiwiVersion",
@@ -191,13 +1738,128 @@
         },
         {
             "file": "src/_particlepack3.js",
-            "line": 37,
+            "line": 40,
             "description": "Other plugins required for this plugin to run.",
             "itemtype": "property",
             "name": "pluginDependencies",
             "type": "Array",
             "access": "public",
             "tagname": "",
+            "class": "Kiwi.Plugins.ParticlePack3",
+            "module": "Kiwi",
+            "submodule": "Kiwi.Plugins",
+            "namespace": "Kiwi.Plugins"
+        },
+        {
+            "file": "src/_particlepack3.js",
+            "line": 58,
+            "description": "Create and return an effect. This is invoked by the individual effects\nand should not be used by developers.",
+            "itemtype": "method",
+            "name": "_create",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "Current game state",
+                    "type": "Kiwi.State"
+                },
+                {
+                    "name": "x",
+                    "description": "Horizontal position coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "Vertical position coordinate",
+                    "type": "Number"
+                },
+                {
+                    "name": "config",
+                    "description": "List of particle config objects",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "Particle effect or group of particle effects",
+                "type": "Object"
+            },
+            "static": 1,
+            "access": "private",
+            "tagname": "",
+            "class": "Kiwi.Plugins.ParticlePack3",
+            "module": "Kiwi",
+            "submodule": "Kiwi.Plugins",
+            "namespace": "Kiwi.Plugins"
+        },
+        {
+            "file": "src/_particlepack3.js",
+            "line": 109,
+            "description": "Run `scheduleStop` on all members of an effect group.",
+            "itemtype": "method",
+            "name": "scheduleStop",
+            "params": [
+                {
+                    "name": "milliseconds",
+                    "description": "Delay time in milliseconds before stopping",
+                    "type": "Number"
+                },
+                {
+                    "name": "remove",
+                    "description": "Mark for removal",
+                    "type": "Boolean",
+                    "optional": true
+                }
+            ],
+            "class": "Kiwi.Plugins.ParticlePack3",
+            "module": "Kiwi",
+            "submodule": "Kiwi.Plugins",
+            "namespace": "Kiwi.Plugins"
+        },
+        {
+            "file": "src/_particlepack3.js",
+            "line": 128,
+            "description": "Run `startEmitting` on all members of an effect group.",
+            "itemtype": "method",
+            "name": "startEmitting",
+            "params": [
+                {
+                    "name": "loop",
+                    "description": "Set to true for continuous looping.\n\tOverrides and updates the config loop setting.",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "removeOnComplete",
+                    "description": "If not looping, then\n\tthe gameobject will destroy itself after one full emission cycle.",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "numParts",
+                    "description": "Number of particles to generate,\n\tset on the config object - if not provided\n\tthe current config value will be used",
+                    "type": "Number"
+                }
+            ],
+            "class": "Kiwi.Plugins.ParticlePack3",
+            "module": "Kiwi",
+            "submodule": "Kiwi.Plugins",
+            "namespace": "Kiwi.Plugins"
+        },
+        {
+            "file": "src/_particlepack3.js",
+            "line": 151,
+            "description": "Run `stopEmitting` on all members of an effect group.",
+            "itemtype": "method",
+            "name": "stopEmitting",
+            "params": [
+                {
+                    "name": "immediate",
+                    "description": "Stops the emitter\n\tand removes any existing particles.",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "remove",
+                    "description": "If true the gameobject will mark itself\n\tfor removal either immediately, or after a completed cycle.",
+                    "type": "Boolean"
+                }
+            ],
             "class": "Kiwi.Plugins.ParticlePack3",
             "module": "Kiwi",
             "submodule": "Kiwi.Plugins",
