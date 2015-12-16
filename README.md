@@ -10,12 +10,18 @@
 
 ## Description
 
-The Scifi Particle Pack plugin comes with a bunch of preconfigured particle effects to add to your game. Includes XXX sprites and XXX pre-configured effects to create XXX and more.
+The Scifi Particle Pack plugin comes with a bunch of preconfigured particle effects to add to your game. Includes 12 new sprites and 36 unique pre-configured effects to create rockets, sonar pulses, lasers, plasma balls, asteroids, acid bullets, star fire, and more.
+
+Each effect in this pack is unique, independent of color. You can create numerous variants just by tweaking the color envelope of an effect config. It's trivial to create hundreds of different effects!
+
+This pack also includes raw JSON files describing the individual effects that make up each pre-built effect. See `json/` for this data.
 
 This plugin requires the ParticlesGL plugin, which is included with the pack.
 If you have any problems then feel free to contact us via http://www.kiwijs.org/help
 
 Tutorials for using particles can be found on the Kiwi.JS website at [Using the ParticlesGL Plugin](http://www.kiwijs.org/using-the-particle-effects-plugin).
+
+Note that there are 12 sprites reproduced from Particle Pack 1. These are used in some of the pre-built effects.
 
 
 ## Dependencies
@@ -51,19 +57,23 @@ This will add ALL the particle effects to your game. If you want to add them ind
 ```html
 <script src="plugins/particlesgl-x.x.x.js"></script>
 <script src="plugins/_particlepack3.js"></script>
-<script src="plugins/particles/bam.js"></script>
+<script src="plugins/particles/acid/acid-bullet.js"></script>
 ```
 
 ### Register the plugins:
-You'll need to tell you game that it intends to use the plugins by adding their names to the plugin config option. Also remember that the effects only work with the WebGL renderer.
+You'll need to tell your game that it intends to use the plugins by adding their names to the plugin config option. Also remember that the effects only work with the WebGL renderer right now.
 
 ```js
-var MyGame = new Kiwi.Game( "exampleGameContainer",
-	"testGame", MyState, { renderer: Kiwi.RENDERER_WEBGL,
-	plugins: [ "ParticlesGL", "ParticlePack3" ] } );
+var MyGame = new Kiwi.Game( "exampleGameContainer", "testGame", MyState,
+	{
+		renderer: Kiwi.RENDERER_WEBGL,
+		plugins: [ "ParticlesGL", "ParticlePack3" ]
+	} );
 ```
 
 ## How to use
+
+	NOTE: This pack uses updated systems, and does not work quite the same way as packs 1 and 2. The main difference is that you now call `AcidBullet.create()` rather than `AcidBullet()`. You can also call `scheduleStop`, `startEmitting`, and `stopEmitting` directly on group effects.
 
 Check out the example found in the `examples/` folder of this repository. View the source and run the examples. You'll need a webserver to view the example - tip: running 'grunt serve' in the root folder will bring up a webserver on `localhost:9000`.
 
@@ -77,8 +87,10 @@ MyState.preload = function() {
 		"particlePack3SpriteSheet",
 		"assets/particlepack3_128.png",
 		128, 128, true, 25, 5, 5, 27, 27, 54, 54 );
-// Note that we load 25 cells, but there are only 24 sprites.
+// Note that we load 25 cells, but there are only 12 new sprites.
 // Some cells are empty for layout reasons.
+// There are also 12 sprites reproduced from Particle Pack 1
+// for use in the pre-built effects.
 };
 ```
 
@@ -87,7 +99,8 @@ To create a particle effect, add the following to your `create` function:
 ```js
 // Create at 400, 300
 MyState.create = function() {
-	this.bam = Kiwi.Plugins.ParticlePack3.Bam( this, 400, 300 );
+	this.acidBullet =
+		Kiwi.Plugins.ParticlePack3.AcidBullet.create( this, 400, 300 );
 };
 ```
 
@@ -96,35 +109,92 @@ Here is a list of all available effects, and example code to create them.
 Single effects (these return a single particle gameobject):
 
 ```js
-this.explosion = Kiwi.Plugins.ParticlePack3.Explosion( this, 400, 300 );
-xxx
-```
-
-Group effects (these return a group of particle gameobjects):
-
-```js
-this.bam = Kiwi.Plugins.ParticlePack3.Bam( this, 400, 300 );
-xxx
+acidBullet =
+	Kiwi.Plugins.ParticlePack3.AcidBullet.create( this, 400, 300 );
+acidFlash =
+	Kiwi.Plugins.ParticlePack3.AcidFlash.create( this, 400, 300 );
+acidImpact =
+	Kiwi.Plugins.ParticlePack3.AcidImpact.create( this, 400, 300 );
+asteroidBullet =
+	Kiwi.Plugins.ParticlePack3.AsteroidBullet.create( this, 400, 300 );
+asteroidImpact =
+	Kiwi.Plugins.ParticlePack3.AsteroidImpact.create( this, 400, 300 );
+bluePlasmaBallBullet =
+	Kiwi.Plugins.ParticlePack3.BluePlasmaBallBullet.create( this, 400, 300 );
+bluePlasmaBallImpact =
+	Kiwi.Plugins.ParticlePack3.BluePlasmaBallImpact.create( this, 400, 300 );
+lightningBallBullet =
+	Kiwi.Plugins.ParticlePack3.LightningBallBullet.create( this, 400, 300 );
+lightningBallImpact =
+	Kiwi.Plugins.ParticlePack3.LightningBallImpact.create( this, 400, 300 );
+lightningGunBullet =
+	Kiwi.Plugins.ParticlePack3.LightningGunBullet.create( this, 400, 300 );
+lightningGunFlash =
+	Kiwi.Plugins.ParticlePack3.LightningGunFlash.create( this, 400, 300 );
+lightningGunImpact =
+	Kiwi.Plugins.ParticlePack3.LightningGunImpact.create( this, 400, 300 );
+orangeBallBullet =
+	Kiwi.Plugins.ParticlePack3.OrangeBallBullet.create( this, 400, 300 );
+orangeBallImpact =
+	Kiwi.Plugins.ParticlePack3.OrangeBallImpact.create( this, 400, 300 );
+orangeBoltBullet =
+	Kiwi.Plugins.ParticlePack3.OrangeBoltBullet.create( this, 400, 300 );
+orangeBoltImpact =
+	Kiwi.Plugins.ParticlePack3.OrangeBoltImpact.create( this, 400, 300 );
+orangeStreaksBullet =
+	Kiwi.Plugins.ParticlePack3.OrangeStreaksBullet.create( this, 400, 300 );
+orangeStreaksImpact =
+	Kiwi.Plugins.ParticlePack3.OrangeStreaksImpact.create( this, 400, 300 );
+pinkPlasmaShotBullet =
+	Kiwi.Plugins.ParticlePack3.PinkPlasmaShotBullet.create( this, 400, 300 );
+pinkPlasmaShotFlash =
+	Kiwi.Plugins.ParticlePack3.PinkPlasmaShotFlash.create( this, 400, 300 );
+pinkPlasmaShotImpact =
+	Kiwi.Plugins.ParticlePack3.PinkPlasmaShotImpact.create( this, 400, 300 );
+radarScannerFlash =
+	Kiwi.Plugins.ParticlePack3.RadarScannerFlash.create( this, 400, 300 );
+redLaserBullet =
+	Kiwi.Plugins.ParticlePack3.RedLaserBullet.create( this, 400, 300 );
+redLaserFlash =
+	Kiwi.Plugins.ParticlePack3.RedLaserFlash.create( this, 400, 300 );
+redLaserImpact =
+	Kiwi.Plugins.ParticlePack3.RedLaserImpact.create( this, 400, 300 );
+rocket1Bullet =
+	Kiwi.Plugins.ParticlePack3.Rocket1Bullet.create( this, 400, 300 );
+rocket1Flash =
+	Kiwi.Plugins.ParticlePack3.Rocket1Flash.create( this, 400, 300 );
+rocket1Impact =
+	Kiwi.Plugins.ParticlePack3.Rocket1Impact.create( this, 400, 300 );
+rocket2Bullet =
+	Kiwi.Plugins.ParticlePack3.Rocket2Bullet.create( this, 400, 300 );
+rocket2Impact =
+	Kiwi.Plugins.ParticlePack3.Rocket2Impact.create( this, 400, 300 );
+sonarPulseBullet =
+	Kiwi.Plugins.ParticlePack3.SonarPulseBullet.create( this, 400, 300 );
+sonarPulseImpact =
+	Kiwi.Plugins.ParticlePack3.SonarPulseImpact.create( this, 400, 300 );
+starFireBullet =
+	Kiwi.Plugins.ParticlePack3.StarFireBullet.create( this, 400, 300 );
+starFireFlash =
+	Kiwi.Plugins.ParticlePack3.StarFireFlash.create( this, 400, 300 );
+starFireImpact =
+	Kiwi.Plugins.ParticlePack3.StarFireImpact.create( this, 400, 300 );
+tractorBeamFlash =
+	Kiwi.Plugins.ParticlePack3.TractorBeamFlash.create( this, 400, 300 );
 ```
 
 Note that some of these functions return a group of gameobjects and others return a single gameobject. In either case, you can add the effect to the state like so:
 
 ```js
-this.addChild( this.XXX );
+this.addChild( acidBullet );
 ```
 
-If the effect is a single object, you can start it emitting like this:
+To start effects emitting, run:
 
 ```js
-this.XXX.startEmitting();
+acidBullet.startEmitting();
 ```
 
-If it's a group you'll need to start each individually - for example:
-
-```js
-for ( var i = 0; i < this.XXX.members.length; i++ ) {
-	this.XXX.members[ i ].startEmitting()
-}
-```
+Note that this works on group effects as well as single gameobjects. This pack adds functions to group effects, allowing you to invoke `startEmitting`, `stopEmitting`, and `scheduleStop` with all standard options. You don't need to run loops over `acidBullet.members` unless you want to do something more sophisticated.
 
 To fully familiarize yourself with the API for controlling particle effects, you should see the documentation for the [ParticlesGL plugin](https://github.com/gamelab/WebGL-Particles-Plugin).
