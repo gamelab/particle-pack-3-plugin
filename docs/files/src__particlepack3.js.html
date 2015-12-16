@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>src\poison.js - ParticlePack1</title>
+    <title>src/_particlepack3.js - ParticlePack3</title>
     <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
     <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
     <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
@@ -15,7 +15,7 @@
     <div id="hd" class="yui3-g header">
         <div class="yui3-u-3-4">
             
-                <h1><img src="../assets/css/logo.png" title="ParticlePack1"></h1>
+                <h1><img src="../assets/css/logo.png" title="ParticlePack3"></h1>
             
         </div>
         <div class="yui3-u-1-4 version">
@@ -41,7 +41,7 @@
         <div id="api-tabview-panel">
             <ul id="api-classes" class="apis classes">
             
-                <li><a href="../classes/Kiwi.Plugins.ParticlePack1.html">Kiwi.Plugins.ParticlePack1</a></li>
+                <li><a href="../classes/Kiwi.Plugins.ParticlePack3.html">Kiwi.Plugins.ParticlePack3</a></li>
             
             </ul>
 
@@ -86,106 +86,60 @@
             <div class="apidocs">
                 <div id="docs-main">
                     <div class="content">
-                        <h1 class="file-heading">File: src\poison.js</h1>
+                        <h1 class="file-heading">File: src/_particlepack3.js</h1>
 
 <div class="file">
     <pre class="code prettyprint linenums">
 /**
-  * ParticlePack1 Poison Effect.
-  * @property Poison
-  * @type Kiwi.Entity
-  * @public
-  * @static
+* For a walkthrough on setting up the particle pack plugin check the README
+*
+* @module Kiwi
+* @submodule Kiwi.Plugins
+* @namespace Kiwi.Plugins
+* @class ParticlePack3
+* @main
 */
+Kiwi.Plugins.ParticlePack3 = {
 
-Kiwi.Plugins.ParticlePack1.Poison = function (state,x,y) { 
-  this.config = {
-  &quot;numParts&quot;: 5,
-  &quot;posOffsetX&quot;: 0,
-  &quot;posOffsetY&quot;: 0,
-  &quot;posRadius&quot;: 9.8,
-  &quot;posRadialStart&quot;: 0,
-  &quot;posRadialEnd&quot;: 3.142,
-  &quot;posWidth&quot;: 200,
-  &quot;posHeight&quot;: 200,
-  &quot;posConstrainRect&quot;: true,
-  &quot;posAngle&quot;: 0,
-  &quot;posLength&quot;: 200,
-  &quot;posRandomLine&quot;: true,
-  &quot;posConstrainRadial&quot;: true,
-  &quot;posRandomRadial&quot;: true,
-  &quot;posShape&quot;: &quot;point&quot;,
-  &quot;maxVel&quot;: 100,
-  &quot;minVel&quot;: 70,
-  &quot;velConstrainRect&quot;: true,
-  &quot;velConstrainRadial&quot;: false,
-  &quot;velRandomRadial&quot;: false,
-  &quot;velShape&quot;: &quot;line&quot;,
-  &quot;velOffsetX&quot;: 0,
-  &quot;velOffsetY&quot;: -232,
-  &quot;velAngMin&quot;: -0.2,
-  &quot;velAngMax&quot;: 0.2,
-  &quot;velRadius&quot;: 55.1,
-  &quot;velRadialStart&quot;: 0,
-  &quot;velRadialEnd&quot;: 6.283185307179586,
-  &quot;velWidth&quot;: 200,
-  &quot;velHeight&quot;: 200,
-  &quot;velAngle&quot;: 0,
-  &quot;velLength&quot;: 89,
-  &quot;velRandomLine&quot;: false,
-  &quot;minStartTime&quot;: 0,
-  &quot;maxStartTime&quot;: 0.5,
-  &quot;minLifespan&quot;: 0.5,
-  &quot;maxLifespan&quot;: 1,
-  &quot;gravityY&quot;: 250,
-  &quot;gravityX&quot;: 0,
-  &quot;startSize&quot;: 1,
-  &quot;endSize&quot;: 80,
-  &quot;loop&quot;: false,
-  &quot;colEnvKeyframes&quot;: [
-    &quot;0.3&quot;,
-    0.6
-  ],
-  &quot;alpha&quot;: 0.5,
-  &quot;colEnv0&quot;: [
-    0.13333333333333333,
-    0.20392156862745098,
-    0
-  ],
-  &quot;colEnv1&quot;: [
-    0,
-    0.9607843137254902,
-    0.011764705882352941
-  ],
-  &quot;colEnv2&quot;: [
-    0.12156862745098039,
-    0.1450980392156863,
-    0
-  ],
-  &quot;colEnv3&quot;: [
-    0.17647058823529413,
-    0.8431372549019608,
-    0
-  ],
-  &quot;alphaGradient&quot;: [
-    &quot;0.3&quot;,
-    1,
-    1,
-    0
-  ],
-  &quot;alphaStops&quot;: [
-    0.3,
-    0.7
-  ],
-  &quot;cells&quot;: [
-    7
-  ],
-  &quot;textureID&quot;: &quot;_128x128&quot;
-}
+	/**
+	* The name of this plugin.
+	* @property name
+	* @type String
+	* @public
+	*/
+	name: &quot;ParticlePack3&quot;,
 
-  return new Kiwi.GameObjects.StatelessParticles(state,state.textures.particlePack1SpriteSheet,x,y,this.config);
+	/**
+	* The version of this plugin in semver (semantic versioning) format
+	* @property version
+	* @type String
+	* @public
+	*/
+	version: &quot;0.1.0&quot;,
 
-}
+	/**
+	* The minimum version of Kiwi.js required to run this plugin in semver
+	* (semantic versioning) format
+	* @property minimumKiwiVersion
+	* @type String
+	* @public
+	*/
+	minimumKiwiVersion: &quot;1.4.0&quot;,
+
+	/**
+	* Other plugins required for this plugin to run. 
+	* @property pluginDependencies
+	* @type Array
+	* @public
+	*/
+	pluginDependencies: [
+		{
+			name: &quot;ParticlesGL&quot;,
+			minimumVersion: &quot;1.2.1&quot;
+		}
+	]
+};
+Kiwi.PluginManager.register( Kiwi.Plugins.ParticlePack3 );
 
     </pre>
 </div>
