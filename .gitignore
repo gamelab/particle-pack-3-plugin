@@ -1,5 +1,5 @@
-
-#ignore thumbnails created by windows
+#ignore thumbnails
+.DS_Store
 Thumbs.db
 #Ignore files build by Visual Studio
 *.obj
@@ -24,7 +24,6 @@ Thumbs.db
 *.orig
 
 #bower_components/*
-#node_modules/*
 /obj/debug/*
 *.map
 *.config
