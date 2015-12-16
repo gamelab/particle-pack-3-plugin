@@ -1,11 +1,11 @@
-Kiwi.Plugins.ParticlePack3.AsteroidImpact = {
+Kiwi.Plugins.ParticlePack3.SonarPulseBullet = {
 
 	create: function( state, x, y ) {
 
 		/**
-		* Return a ParticlePack3 AsteroidImpact effect.
+		* Return a ParticlePack3 SonarPulseBullet effect.
 		*
-		* @method AsteroidImpact.create
+		* @method SonarPulseBullet.create
 		* @param state {Kiwi.State} Current game state
 		* @param x {number} Horizontal coordinate
 		* @param y {number} Vertical coordinate
@@ -31,79 +31,79 @@ Kiwi.Plugins.ParticlePack3.AsteroidImpact = {
 	},
 
 	/**
-	* Config information for AsteroidImpact
+	* Config information for SonarPulseBullet
 	*
-	* @property AsteroidImpact.config
+	* @property SonarPulseBullet.config
 	* @type array
 	*/
 	config: [
 		{
-			"numParts": 25,
+			"numParts": 20,
 			"posOffsetX": 0,
 			"posOffsetY": 0,
-			"posRadius": 20,
+			"posRadius": 100,
 			"posRadialStart": 0,
-			"posRadialEnd": 6.283185307179586,
-			"posWidth": 200,
-			"posHeight": 200,
-			"posConstrainRect": true,
+			"posRadialEnd": 3.1419999999999995,
+			"posWidth": 60,
+			"posHeight": 20,
+			"posConstrainRect": false,
 			"posAngle": 0,
 			"posLength": 200,
 			"posRandomLine": true,
-			"posConstrainRadial": false,
+			"posConstrainRadial": true,
 			"posRandomRadial": true,
-			"posShape": "point",
+			"posShape": "rectangle",
 			"maxVel": 100,
 			"minVel": 70,
 			"velConstrainRect": true,
-			"velConstrainRadial": false,
+			"velConstrainRadial": true,
 			"velRandomRadial": true,
-			"velShape": "radial",
+			"velShape": "line",
 			"velOffsetX": 0,
-			"velOffsetY": 0,
-			"velAngMin": -10,
-			"velAngMax": 10,
-			"velRadius": 250,
+			"velOffsetY": 100,
+			"velAngMin": 0,
+			"velAngMax": 0,
+			"velRadius": 200,
 			"velRadialStart": 0,
 			"velRadialEnd": 6.283185307179586,
 			"velWidth": 200,
 			"velHeight": 200,
 			"velAngle": 0,
-			"velLength": 200,
+			"velLength": 20,
 			"velRandomLine": true,
 			"minStartTime": 0,
-			"maxStartTime": 0.2,
-			"minLifespan": 0.2,
-			"maxLifespan": 0.6,
+			"maxStartTime": 1,
+			"minLifespan": 0.3,
+			"maxLifespan": 1,
 			"gravityX": 0,
 			"gravityY": 0,
-			"startSize": 100,
-			"endSize": 20,
-			"loop": false,
+			"startSize": 6,
+			"endSize": 2,
+			"loop": true,
 			"colEnvKeyframes": [
 				0.5,
 				0.6
 			],
-			"alpha": 0.2,
+			"alpha": 1,
 			"colEnv0": [
-				0.6196078431372549,
-				0.40784313725490196,
-				0.23529411764705882
+				0.1803921568627451,
+				0.9647058823529412,
+				0.03137254901960784
 			],
 			"colEnv1": [
-				0.5882352941176471,
-				0.403921568627451,
-				0.3764705882352941
+				0.5098039215686274,
+				0.9764705882352941,
+				0.043137254901960784
 			],
 			"colEnv2": [
-				0.596078431372549,
-				0.43137254901960786,
-				0.3058823529411765
+				0.3607843137254902,
+				0.9764705882352941,
+				0.19215686274509805
 			],
 			"colEnv3": [
-				0.5686274509803921,
-				0.3803921568627451,
-				0.2627450980392157
+				0.5490196078431373,
+				0.9803921568627451,
+				0.19607843137254902
 			],
 			"alphaGradient": [
 				0,
@@ -117,37 +117,36 @@ Kiwi.Plugins.ParticlePack3.AsteroidImpact = {
 			],
 			"additive": false,
 			"cells": [
-				22,
-				23
+				2
 			]
 		},
 		{
-			"numParts": 25,
+			"numParts": 7,
 			"posOffsetX": 0,
 			"posOffsetY": 0,
-			"posRadius": 20,
+			"posRadius": 100,
 			"posRadialStart": 0,
-			"posRadialEnd": 6.283185307179586,
+			"posRadialEnd": 3.142,
 			"posWidth": 200,
 			"posHeight": 200,
 			"posConstrainRect": true,
 			"posAngle": 0,
 			"posLength": 200,
 			"posRandomLine": true,
-			"posConstrainRadial": false,
+			"posConstrainRadial": true,
 			"posRandomRadial": true,
 			"posShape": "point",
 			"maxVel": 100,
 			"minVel": 70,
 			"velConstrainRect": true,
-			"velConstrainRadial": false,
+			"velConstrainRadial": true,
 			"velRandomRadial": true,
-			"velShape": "radial",
+			"velShape": "point",
 			"velOffsetX": 0,
-			"velOffsetY": 0,
-			"velAngMin": -10,
-			"velAngMax": 10,
-			"velRadius": 250,
+			"velOffsetY": 100,
+			"velAngMin": 0,
+			"velAngMax": 0,
+			"velRadius": 200,
 			"velRadialStart": 0,
 			"velRadialEnd": 6.283185307179586,
 			"velWidth": 200,
@@ -156,38 +155,38 @@ Kiwi.Plugins.ParticlePack3.AsteroidImpact = {
 			"velLength": 200,
 			"velRandomLine": true,
 			"minStartTime": 0,
-			"maxStartTime": 0.2,
-			"minLifespan": 0.2,
-			"maxLifespan": 0.6,
+			"maxStartTime": 1,
+			"minLifespan": 0.3,
+			"maxLifespan": 1,
 			"gravityX": 0,
 			"gravityY": 0,
 			"startSize": 100,
-			"endSize": 20,
-			"loop": false,
+			"endSize": 10,
+			"loop": true,
 			"colEnvKeyframes": [
 				0.5,
 				0.6
 			],
-			"alpha": 0.5,
+			"alpha": 1,
 			"colEnv0": [
-				0.6196078431372549,
-				0.40784313725490196,
-				0.23529411764705882
+				0.2235294117647059,
+				0.9647058823529412,
+				0
 			],
 			"colEnv1": [
-				0.5882352941176471,
-				0.403921568627451,
-				0.3764705882352941
+				0.5098039215686274,
+				0.9764705882352941,
+				0.043137254901960784
 			],
 			"colEnv2": [
-				0.596078431372549,
-				0.43137254901960786,
-				0.3058823529411765
+				0.3607843137254902,
+				0.9764705882352941,
+				0.19215686274509805
 			],
 			"colEnv3": [
-				0.5686274509803921,
-				0.3803921568627451,
-				0.2627450980392157
+				0.5490196078431373,
+				0.9803921568627451,
+				0.19607843137254902
 			],
 			"alphaGradient": [
 				0,
@@ -199,11 +198,9 @@ Kiwi.Plugins.ParticlePack3.AsteroidImpact = {
 				0.3,
 				0.7
 			],
-			"additive": false,
+			"additive": true,
 			"cells": [
-				8,
-				22,
-				23
+				13
 			]
 		}
 	]
