@@ -2,7 +2,7 @@
     "project": {
         "name": "ParticlePack3",
         "description": "SciFi particle pack.",
-        "version": "0.1.0",
+        "version": "1.0.0",
         "url": "http://kiwijs.org/"
     },
     "files": {

@@ -26,7 +26,7 @@ Kiwi.Plugins.ParticlePack3 = {
 	* @type String
 	* @public
 	*/
-	version: "0.1.0",
+	version: "1.0.0",
 
 	/**
 	* The minimum version of Kiwi.js required to run this plugin in semver
